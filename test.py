@@ -87,15 +87,3 @@ final = Button(image=add_button,command=ADD,padx=150,font=("Arial",11,"bold"),hi
 final.place(x=353,y=555)
 
 screen.mainloop()
-
-
-
-# show_pass = False
-# def toggle_pass():
-#     global show_pass
-#     show_pass = not show_pass
-#     pass_entry.config(show="" if show_pass else "*")
-#
-# pass_entry.config(show="*")  # Hide by default
-# toggle_btn = Button(text="👁", command=toggle_pass)
-# toggle_btn.place(x=490, y=505)
