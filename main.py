@@ -31,7 +31,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 
-GOOGLE_FORM = "https://docs.google.com/forms/d/e/1FAIpQLSfGodP18coGz7sPNXzrlDI4dkVlavZ4QAaR_GvWea0vmOs6rQ/viewform?usp=publish-editor"
+GOOGLE_FORM = "YOUR_GOOGLE_FORM_LINK"
 
 #setting up Chrome Driver
 options = webdriver.ChromeOptions()
